@@ -9,6 +9,6 @@
     <button type="submit">Submit</button>
 </form>
 {% if pin == "Invalid PIN. Please try again!" %}
-<p style="color: red;">{{ pin }}</p>
+<p class="error">{{ pin }}</p>
 {% endif %}
 {% endblock %}
